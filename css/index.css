@@ -15,6 +15,12 @@ img {
     height: auto;
 }
 
+.link-mail-head {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-phone-head {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .container {
     max-width: 1200px;
     justify-content: center;
@@ -52,6 +58,7 @@ img {
 .nav-list-item{
     margin: unset;
    justify-content: space-between;
+   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .underline {
@@ -345,7 +352,7 @@ h2 {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     max-width: fit-content;
     margin-inline: 10px;
-    
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .staff-list {
@@ -388,6 +395,7 @@ h2 {
     background: #fff;
     background-attachment: fixed;
     cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .staff-icon-list {
@@ -395,7 +403,7 @@ h2 {
     justify-content: space-between;
     gap: 10px;
     padding: 0px 32px 18px 32px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     
 }
 
@@ -426,6 +434,7 @@ h2 {
     font-size: 36px;
     font-weight: 700;
     padding-bottom: 50px;
+
 }
 
 .client-list {
@@ -433,7 +442,7 @@ h2 {
     flex-wrap: wrap;
     padding: 0;
     cursor: pointer;
-      
+   
 }
 
 .client-icon-item {
@@ -441,13 +450,16 @@ h2 {
     flex-basis: calc((100% - 10px) / 6);
     fill: #AFB1B8;
     cursor: pointer;
+    
+}
+.client-icon-list {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-icon-list :hover {
     fill: #2196F3;
     border: 1px solid #2196F3;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 footer {
@@ -477,6 +489,7 @@ footer {
     margin: unset;
     padding-left: 70px;
     padding-top: 12px;
+    
 }
 
 .footer-right h4{
@@ -533,7 +546,7 @@ footer {
     justify-content: space-between;
     gap: 10px;
     padding: 20px 0px; 
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -544,7 +557,8 @@ footer {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
     background-attachment: fixed;
-    
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .bottom-icons :hover{
@@ -558,6 +572,7 @@ footer {
 .item-icon {
     fill: #FFFFFF;
     margin: 12px;    
+    
 }
 
 li {
